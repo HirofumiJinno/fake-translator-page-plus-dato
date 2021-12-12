@@ -1,6 +1,12 @@
 - name: Silicon Valley Tech
-  image: some_product.png
+  image: silicon_valley_tech.png
+  role: translation
   description: Silicon Valley Tech has been known outside Japan for its wildly popular online platform. A Japanese competitor has been quite strong in Japan, which has prevented this American company from expanding its market in the country. Maru Translation helped the company horn its messaging in Japanese.
 - name: Kyoto Tea Company
-  image: some_product.png
-  description:
+  image: kyoto-tea.png
+  role: review
+  description: Kyoto Tea Company has decided to appeal to a wider customer base and put a bigger emphasis on external communication in English, requiring a thorough review of their Japanese-into-English translations. Maru Translation worked closely with the company and Japanese-into-English translators by providing feedback.
+- name: Mr. Gay Cosmo Japan
+  image: gay-japan.jpg
+  role: pro-bono
+  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium debitis nam consequuntur veniam fugit tempore maxime accusantium nisi omnis ipsum? Laudantium debitis nam consequuntur veniam fugit tempore maxime accusantium nisi omnis ipsum?
