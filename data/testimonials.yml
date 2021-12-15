@@ -1,0 +1,12 @@
+- name: James Frost
+  title: Chief Marketing Officer
+  affiliation: Hawaii Boutique Travel
+  review: Maru Translation provided timely and high-quality translation which saved us from a headache of lengthy translation review. I always come back to this translation agency for web marketing contents.
+  image: hawaii.jpg
+  color: rgba(46, 138, 138, 0.6)
+- name: Kozo Yosumi
+  title: CEO
+  affiliation: Yosumi Corporation
+  review: Maru Translation helped me communicate with my couterpart in the US, facilitating high-stake conversation.
+  image: meeting.jpg
+  color: rgba(71, 107, 78, 0.6)

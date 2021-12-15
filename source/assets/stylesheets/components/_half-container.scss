@@ -2,6 +2,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
+  justify-content: space-around;
+
+  h2 {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+  }
 }
 
 // Smallest device
@@ -27,7 +34,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .two-column-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .external-link {
     opacity: 0;
@@ -44,6 +51,6 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .two-column-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
