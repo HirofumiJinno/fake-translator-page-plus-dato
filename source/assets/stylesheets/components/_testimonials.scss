@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.testimonial-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: space-around;
+}
+
+.testimonial-card {
+  background-position: center;
+  background-size: cover;
+  margin: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.testimonial {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  margin: 0% 4%;
+}
+
+.testimonial-description {
+  width: 100%;
+
+  h5, p {
+    text-align: right;
+  }
+
+  h5 {
+    margin: 0.5em 0em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .testimonial-card-container {
+    grid-template-columns: 1fr;
+  }
+  .external-link {
+    opacity: 1;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .testimonial-card-container {
+    grid-template-columns: 1fr;
+  }
+  .external-link {
+    opacity: 0;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .testimonial-card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .testimonial-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
