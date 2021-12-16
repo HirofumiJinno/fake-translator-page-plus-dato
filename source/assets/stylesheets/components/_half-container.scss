@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   justify-content: space-around;
+  align-items: start;
 
   h2 {
     margin-top: 24px;
@@ -55,7 +56,8 @@
   }
 }
 
-.half-container {
+.container-left {
   display: grid;
   justify-content: center;
+  align-items: start;
 }
