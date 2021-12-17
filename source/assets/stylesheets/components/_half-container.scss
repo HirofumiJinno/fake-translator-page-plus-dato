@@ -4,6 +4,9 @@
   grid-gap: 16px;
   justify-content: space-around;
   margin-top: 24px;
+    h2 {
+    text-align: center;
+  }
 }
 
 // Smallest device
@@ -59,8 +62,5 @@
 
 .container-right {
   display: block;
-  h2 {
-    text-align: center;
-  }
   margin: 0px 16px;
 }
