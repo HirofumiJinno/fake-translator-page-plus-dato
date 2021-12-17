@@ -25,7 +25,7 @@
   text-align: justify;
   font-family: 'Poppins', sans-serif;
   margin: 0% 4%;
-  font-size: larger;
+  font-size: smaller;
 }
 
 .testimonial-description {
@@ -52,6 +52,9 @@
   .external-link {
     opacity: 1;
   }
+  .testimonial {
+  font-size: smaller;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -62,6 +65,9 @@
   .external-link {
     opacity: 0;
   }
+  .testimonial {
+  font-size: smaller;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -69,11 +75,17 @@
   .testimonial-card-container {
     grid-template-columns: 1fr 1fr;
   }
+  .testimonial {
+  font-size: large;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .testimonial-card-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .testimonial {
+  font-size: larger;
   }
 }

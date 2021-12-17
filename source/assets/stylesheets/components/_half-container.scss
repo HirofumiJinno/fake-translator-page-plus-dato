@@ -3,7 +3,6 @@
   grid-template-columns: 2fr 1fr;
   grid-gap: 16px;
   justify-content: space-around;
-  align-items: start;
 
   h2 {
     margin-top: 24px;
@@ -56,12 +55,8 @@
   }
 }
 
-.container-left {
+.container-left, .container-right{
   display: grid;
   justify-content: center;
-  align-items: start;
-}
-
-.container-right {
-  align-items: start;
+  align-content: flex-start;
 }
