@@ -11,16 +11,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Portfolio</title>
+    <title>Maru Translation</title>
     <!-- This needs to be configured. See the docs: https://github.com/cacheventures/middleman-metaman -->
     <%= display_meta_tags %>
-    <%= favicon_tag 'favicon.ico' %>
+    <%= favicon_tag 'linkedin_banner_image_1.png' %>
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   </head>
 
   <body>
+    <%= partial 'partials/navbar' %>
     <%= yield %>
+    <%= partial 'partials/footer' %>
     <%= javascript_include_tag "bundle" %>
   </body>
 </html>

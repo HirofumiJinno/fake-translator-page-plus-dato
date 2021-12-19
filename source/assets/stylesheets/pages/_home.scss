@@ -1,1 +1,17 @@
 // Specific CSS for your home-page
+.main-content {
+  margin: 0px 1%
+}
+
+.full-page-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("/assets/images/books.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 24px -24px;
+  color: white;
+  text-shadow: 0 0 3px black;
+}
