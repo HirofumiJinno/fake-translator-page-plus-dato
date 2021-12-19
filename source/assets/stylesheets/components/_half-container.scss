@@ -56,11 +56,13 @@
 .container-left {
   display: grid;
   justify-content: center;
-  align-content: flex-start;
+  align-content: space-between;
   margin-bottom: 16px;
 }
 
 .container-right {
-  display: block;
+  display: flex;
   margin: 0px 16px;
+  flex-direction: column;
+  align-items: space-between;
 }
