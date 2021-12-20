@@ -1,10 +1,11 @@
 .two-column-container {
   display: grid;
-  grid-template-columns: 4fr 3fr;
+  grid-template-columns: 5fr 3fr;
   grid-gap: 16px;
   justify-content: space-around;
   margin-top: 24px;
-    h2 {
+
+  h2 {
     text-align: center;
   }
 }
@@ -56,13 +57,23 @@
 .container-left {
   display: grid;
   justify-content: center;
-  align-content: space-between;
+  align-content: center;
   margin-bottom: 16px;
+  padding-left: 24px;
 }
 
 .container-right {
   display: flex;
   margin: 0px 16px;
   flex-direction: column;
-  align-items: space-between;
+  align-items: center;
+}
+
+.form-container-background {
+  background-color: rgba(161, 102, 138, 0.6);
+  border-radius: 5px;
+  height: 100%;
+  min-width: 400px;
+  max-width: 475px;
+  justify-content: center;
 }
