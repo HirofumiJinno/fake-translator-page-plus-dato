@@ -5,17 +5,17 @@
   icon: <i class="fas fa-closed-captioning"></i>
   color: red
 - name: transcreation
-  icon: <i class="fas fa-closed-captioning"></i>
+  icon: <i class="fas fa-user-ninja"></i>
   color: red
 - name: voice-over
-  icon: <i class="fas fa-closed-captioning"></i>
+  icon: <i class="fas fa-comments"></i>
   color: red
 - name: translation technology
-  icon: <i class="fas fa-closed-captioning"></i>
+  icon: <i class="fas fa-code"></i>
   color: red
 - name: translation consulting
-  icon: <i class="fas fa-closed-captioning"></i>
+  icon: <i class="fas fa-toolbox"></i>
   color: red
 - name: website localization
-  icon: <i class="fas fa-closed-captioning"></i>
+  icon: <i class="fas fa-cubes"></i>
   color: red

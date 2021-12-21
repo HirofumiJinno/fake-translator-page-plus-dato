@@ -1,7 +1,7 @@
 
 .two-column-flex-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 0px 24px;
   padding-bottom: 24px;
@@ -22,10 +22,6 @@
 
   h4 {
     margin-top: 0px;
-  }
-
-  .max-width-500 {
-    max-width: 500px;
   }
 }
 
@@ -80,5 +76,8 @@
     width: 350px;
     border-radius: 5px;
     }
+    .max-width {
+    max-width: 450px;
+  }
   }
 }
