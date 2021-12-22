@@ -14,6 +14,7 @@ GEM
       execjs (~> 2)
     backports (3.21.0)
     builder (3.2.4)
+    cacert (0.6.0)
     capybara (3.36.0)
       addressable
       matrix
@@ -61,10 +62,46 @@ GEM
       cucumber-core (~> 10.1, >= 10.1.0)
       cucumber-cucumber-expressions (~> 14.0, >= 14.0.0)
       cucumber-messages (~> 17.1, >= 17.1.1)
+    dato (0.8.1)
+      activesupport (>= 4.2.7)
+      addressable
+      cacert
+      dato_json_schema
+      dotenv
+      faraday (>= 0.9.0)
+      faraday_middleware (>= 0.9.0)
+      imgix (~> 4)
+      listen
+      mime-types
+      pusher-client
+      thor
+      toml
+    dato_json_schema (0.20.9)
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     erubis (2.7.0)
     execjs (2.8.1)
+    faraday (1.8.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday_middleware (1.2.0)
+      faraday (~> 1.0)
     fast_blank (1.0.1)
     fastimage (2.2.5)
     ffi (1.15.4)
@@ -78,6 +115,8 @@ GEM
     hashie (3.6.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
+    imgix (4.0.3)
+    json (2.6.1)
     kramdown (2.3.1)
       rexml
     listen (3.0.8)
@@ -121,6 +160,11 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
+    middleman-dato (0.8.0)
+      activesupport
+      dato (>= 0.3.2)
+      dotenv
+      middleman-core (>= 4.1.10)
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
     middleman-metaman (0.1.11)
@@ -132,6 +176,7 @@ GEM
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     multi_test (0.1.2)
+    multipart-post (2.1.1)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -145,6 +190,9 @@ GEM
       ast (~> 2.4.1)
     parslet (2.0.0)
     public_suffix (4.0.6)
+    pusher-client (0.6.2)
+      json
+      websocket (~> 1.0)
     racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -181,6 +229,7 @@ GEM
     rubocop-ast (1.14.0)
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -202,6 +251,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.1.0)
     webrick (1.7.0)
+    websocket (1.2.9)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.5.1)
@@ -215,6 +265,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.13.0)
   middleman
   middleman-autoprefixer
+  middleman-dato
   middleman-gh-pages
   middleman-metaman
   rake

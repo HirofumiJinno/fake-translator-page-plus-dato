@@ -1,0 +1,36 @@
+- name: Translation
+  icon: <i class="fas fa-language"></i>
+  color: brown
+- name: Subtitling
+  icon: <i class="fas fa-closed-captioning"></i>
+  color: red
+- name: Transcreation
+  icon: <i class="fas fa-user-ninja"></i>
+  color: red
+- name: Voice-over
+  icon: <i class="fas fa-comments"></i>
+  color: red
+- name: Translation technology
+  icon: <i class="fas fa-code"></i>
+  color: red
+- name: Translation consulting
+  icon: <i class="fas fa-toolbox"></i>
+  color: red
+- name: Website localization
+  icon: <i class="fas fa-cubes"></i>
+  color: red
+- name: Game localization
+  icon: <i class="fas fa-gamepad"></i>
+  color: red
+- name: UI/UX translation
+  icon: <i class="fab fa-uikit"></i>
+  color: red
+- name: Telephone interpreting
+  icon: <i class="fas fa-phone"></i>
+  color: red
+- name: Public speaking & lecture
+  icon: <i class="far fa-comment-dots"></i>
+  color: red
+- name: amd much more!
+  icon: <i class="fab fa-sketch"></i>
+  color: red

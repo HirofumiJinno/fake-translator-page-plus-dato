@@ -45,3 +45,7 @@ configure :build do
 end
 
 activate :metaman, host: 'https://domain.com'
+
+activate :dato,
+  token: 'f9772a11b1142bfbef77cf4171efba',
+  base_url: 'http://www.mywebsite.com'
