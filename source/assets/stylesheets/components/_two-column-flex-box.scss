@@ -1,6 +1,7 @@
 
 .two-column-flex-box {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 0px 24px;
@@ -47,8 +48,13 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-.two-column-flex-box {
-   img {
+  .two-column-flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    img {
       height: 250px;
       width: 250px;
       border-radius: 50%;
@@ -59,11 +65,20 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .two-column-flex-box {
-   img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    img {
       height: 250px;
       width: 250px;
       border-radius: 50%;
-   }
+    }
+
+    .max-width {
+     max-width: 45%;
+    }
   }
 }
 
@@ -71,13 +86,14 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .two-column-flex-box {
+    justify-content: space-around;
     img {
     height: 250px;
     width: 350px;
     border-radius: 5px;
     }
     .max-width {
-    max-width: 450px;
-  }
+      max-width: 45%;
+    }
   }
 }
